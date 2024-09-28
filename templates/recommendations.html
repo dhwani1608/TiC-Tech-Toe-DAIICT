@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Recommended Resources</h2>
+<ul id="recommendation-list">
+    <!-- Dynamically load recommendations here -->
+</ul>
+<script src="{{ url_for('static', filename='js/recommendations.js') }}"></script>
+{% endblock %}
